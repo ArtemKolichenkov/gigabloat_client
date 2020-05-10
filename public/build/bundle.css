@@ -1,0 +1,14 @@
+button.svelte-1a1l7yj{border-radius:5px;background-color:salmon;border-color:black}
+.card-container.svelte-1xy8nrp{padding:10px;margin:10px;border-radius:10px;background-color:var(--theme-background300)}.card-heading.svelte-1xy8nrp{display:flex;justify-content:space-between}.content.svelte-1xy8nrp{padding-top:10px}button.svelte-1xy8nrp{border:1.5px solid var(--theme-headingText);color:var(--theme-headingText);background-color:var(--theme-background300);border-radius:15px;width:24px;height:24px;padding:0;margin:0;text-align:center;line-height:22px;font-size:14px}
+h1.svelte-1702bsg{margin:0;color:var(--theme-headingText);font-size:var(--font-heading)}
+ul.svelte-1cnbjte{list-style-type:none}.nested.svelte-1cnbjte{display:none}.active.svelte-1cnbjte{display:block}
+.caret.svelte-1jiw9cq{cursor:pointer;user-select:none}.caret.svelte-1jiw9cq::before{content:"\25B6";color:black;display:inline-block;margin-right:6px}.caret-down.svelte-1jiw9cq::before{transform:rotate(90deg)}
+ul.svelte-yn4u08,#root.svelte-yn4u08{list-style-type:none}#root.svelte-yn4u08{margin:0;padding:0}
+.main-area.svelte-weatwc{flex:1;background-color:var(--theme-background100);color:var(--theme-text)}
+ul.svelte-1ogikqo{padding:0;list-style-type:none}
+a.svelte-3kl0bt{color:var(--theme-text);font-size:var(--font-normal)}a.svelte-3kl0bt:hover{text-decoration:none}li.svelte-3kl0bt{display:flex;margin:3px 0}.main.svelte-3kl0bt{display:inline-block;flex:1;padding:10px 0 10px 10px;border-top-left-radius:5px;border-bottom-left-radius:5px}.hoverable.svelte-3kl0bt{transition:all 0.2s}.hoverable.svelte-3kl0bt:hover{color:var(--theme-accentPrimary);background-color:var(--theme-background100)}.active.svelte-3kl0bt{cursor:default;background-color:var(--theme-background100)}.active-indicator.svelte-3kl0bt{display:inline-block;min-width:3px;background-color:var(--theme-text)}
+aside.svelte-69k9fo{flex:1;padding-left:25px;max-width:250px;background-color:var(--theme-background200)}h1.svelte-69k9fo{color:var(--theme-text);margin-top:20px;font-size:var(--font-heading)}
+pre.svelte-evluh8{background-color:var(--theme-background200);padding:10px;border-radius:5px}.card_columns.svelte-evluh8{display:flex}.card_column.svelte-evluh8{flex:1;padding:5px}.card_column.svelte-evluh8:first-child{border-right:1px solid salmon}
+.no-page-found.svelte-9seqxp{display:flex;align-items:center;justify-content:center;margin:10px;height:100%}.explanation.svelte-9seqxp{text-align:center}
+
+/*# sourceMappingURL=bundle.css.map */

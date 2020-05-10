@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.examples.gigabloatproto";
+option java_outer_classname = "GigabloatProto";
+option objc_class_prefix = "RTG";
+
+package gigabloat;
+
+service Gigabloat {
+  rpc ScanTarget(Target) returns (TargetStats) {}
+  rpc GetRoot(Target) returns (Directory) {}
+}
+
+message Target {
+  string path = 1;
+}
+
+message TargetStats {
+  Summary summary = 1;
+}
+
+message Summary {
+  string root = 1;
+  int64 totalSize = 2;
+  string hrTotalSize = 3;
+  int64 filesCount = 4;
+  int32 dirCount = 5;
+  map<string, int32> filetypes = 6; 
+}
+
+message Directory {
+  string path = 1;
+  string name = 2;
+  Directory parentDirectory = 3;
+  repeated File files = 4;
+  int64 fileCount = 5;
+  repeated Directory subdirectories = 6;
+  int64 subdirCount = 7;
+  int64 size = 8;
+  string hrSize = 9;
+  map<string, int32> filetypes = 10;
+  map<string, int32> categories = 11;  
+}
+
+message File {
+  string path = 1;
+  Directory directory = 2;
+  string filename = 3;
+  int64 size = 4;
+  string hrSize = 5;
+  string filetype = 6;
+  string category = 7;
+}
